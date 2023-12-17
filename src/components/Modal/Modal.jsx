@@ -20,7 +20,7 @@ const Modal = ({ onCloseModal, data }) => {
     return () => {
       window.removeEventListener('keydown', onKeyDown);
     };
-  }, []);
+  });
 
   return (
     <div>
