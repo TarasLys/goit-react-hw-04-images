@@ -7,6 +7,7 @@ import Searchbar from './Searchbar/Searchbar';
 import Modal from './Modal/Modal';
 import Notiflix from 'notiflix';
 
+
 export const App = () => {
   const per_page = 12;
   const [per, setPer] = useState([]);
